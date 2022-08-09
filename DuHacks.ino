@@ -101,7 +101,6 @@ void loop()
             display.clearDisplay();            
             digitalWrite(4, LOW);
         }
-        // assisatance
         else if (command == 'A')
         {
             display.setTextSize(1);
